@@ -20,13 +20,18 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 60px;
     background-color: #fff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 0 5%;
+    position: fixed;
+    z-index: 100;   
 }
+
 nav ul{
     display: flex;
+    padding-right: 10%;    
 }
 .toogle{
     display: none;
@@ -37,6 +42,17 @@ nav ul li a {
     color: #505050;
     font-size: 15px;
     font-weight: 700;
+}
+nav ul li:hover{
+    background-color: rgb(201, 196, 196);
+    padding: 3px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.3);
+    border-radius: 50%;
+}
+nav ul li a:hover{
+    color: white;
 }
 .logo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -89,7 +105,7 @@ nav ul li a {
     transition: 0.4s;
 }
 .mobile-nav.is-active{
-    left: 45%;
+    left: 35%;
 }
 
 .mobile-nav a {
@@ -161,11 +177,12 @@ nav ul li a {
     font-weight: bold;
     font-size: 14px;
     outline: none;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 .hire-btn{
     border: 2px solid #373636;
     color: #373636;
+   
 }
 .down-cv{
     background-color: #0b0b0b;
@@ -610,7 +627,7 @@ font-size: 20px;
     }
     nav ul li a {
         font-family: 'Lucida Sans', 'Lucida Sans Regular';
-        font-size: 1.4em;
+        font-size: 1.1em;
         text-transform: uppercase;
         color: #5c5c5c;
     }
@@ -620,6 +637,10 @@ font-size: 20px;
     
     .nav.active ul {
         display: flex !important;
+    }
+
+    .text-container p:nth-child(2){
+        font-size: 47px;
     }
     .about-container{
         top: 0px;
@@ -648,6 +669,11 @@ font-size: 20px;
     }
     footer p:nth-child(2){
         width: 90%;
+    }
+    .copyright{
+        font-size: 11px;
+        left: 28%;
+        transform: translateX(28%);
     }
 
 }

@@ -7,39 +7,42 @@
     <link rel="stylesheet" href="./sass/base.css">
     <!-- <script src="https://kit.fontawesome.com/c8e4d183c2.js">crossorigin="anonymous"</script> -->
     <link rel="stylesheet" href="./assets/fontawesome-free-5.14.0-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./assets/bootstrap-4.2.1-dist/css/bootstrap.min.css"> -->
     
     <title>Mike-Touch</title>
 </head>
 <body>
     <section>
-        <nav>
-            <a href="#" class="logo">Mike-Touch</a>
+        <nav class="top-nav">
+            
+                <a href="#" class="logo">Mike-Touch</a>
 
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Team</a></li>
-            </ul>
-            <!-- bars........................ -->
-            <!-- <div class="toggle"><i class="fas fa-bars"></i></div> -->
-            <button class="hamburger">
-                <div class="bar"></div>
-            </button>
+                <ul>
+                    <li><a href="#section1" class="active">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Skills</a></li>
+                    <li><a href="#section4">Services</a></li>
+                    <li><a href="#section5">Contact Us</a></li>
+                </ul>
+                <!-- bars........................ -->
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>    
             
         </nav>
         <nav class="mobile-nav">    
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Team</a>
+            <a href="#section1" class="active">Home</a>
+            <a href="#section2">About</a>
+            <a href="#section3">Skills</a>
+            <a href="#section4">Services</a>
+            <a href="#section5">Contact Us</a>
         </nav>
 
-        <div class="text-container">
+        <div id="section1" class="text-container">
             <p>Hello</p>
             <p>I'M Michael</p>
-            <p>I am a Frontend <br> Web developer</p>
-            <button class="hire-btn">Hire me</button>
+            <p>a Frontend <br> Web developer</p>
+            <button class="hire-btn">Hire Me</button>
             <button class="down-cv">Download CV</button>
         </div>
 
@@ -47,7 +50,7 @@
 
     </section>
 
-    <div class="about-container">
+    <div id="section2" class="about-container">
         <img src="./assets/images/me.jpg" alt="">
         <div class="about-text">
             <p>About Me</p>
@@ -70,7 +73,7 @@
         </div>
     </div>
 
-    <div class="skills">
+    <div id="section3" class="skills">
         <div class="skills-text">
             <p>Skills</p>
             <p>Proficient Skills</p>
@@ -111,7 +114,7 @@
         </div>
     </div>
 
-    <div class="services">
+    <div id="section4" class="services">
         <div class="services-text">
             <p>Services</p>
             <p>Services required</p>
@@ -151,16 +154,16 @@
         </div>
     </div>
 
-    <div class="contact-me">
+    <div id="section5" class="contact-me">
         <p>Do you have a project in mind?</p>
-        <button>Contact Me</button>
+        <button class="contact">Contact Me</button>
     </div>
 
     <footer>
         <p>Mike-Touch</p>
         <p>Do you you want a software for your business? Contact me.
             I design and implement projects in record time.
-             My ultimate drive is my client satisfaction.
+             My ultimate drive is my client's satisfaction.
         </p>
         <div class="social-icons">
             <a href="#"> <i class="fab fa-facebook-f"></i> </a>
