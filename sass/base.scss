@@ -105,7 +105,7 @@ nav ul li a:hover{
     transition: 0.4s;
 }
 .mobile-nav.is-active{
-    left: 35%;
+    left: 40%;
 }
 
 .mobile-nav a {
@@ -133,7 +133,6 @@ nav ul li a:hover{
     }
 }
 
-
 .text-container p:nth-child(1){
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -148,7 +147,6 @@ nav ul li a:hover{
     color: #1a1a1a;
     font-size: 60px;
 }
-
 
 .text-container p:nth-child(3){
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -526,7 +524,6 @@ font-size: 20px;
     .model{
         height: 360px;
         top: 30%;
-        // left: 50%;
         transform: translateX(-50%);
         border-radius: 50%;
     }
